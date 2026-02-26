@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stone & Dawn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=Fraunces:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+    <section class="banner-wrap">
+
+        <!-- ================= HEADER ================= -->
+        <header class="main-header desktop-header d-none d-lg-block">
+            <div class="header-pill d-flex align-items-center">
+                <div class="header-left d-flex align-items-center">
+                    <ul class="nav-menu">
+                        <li class="active">Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Work</li>
+                        <li>Contact</li>
+                    </ul>
+                    <div class="logo">
+                        <img src="./images/Frame 2.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="header-actions d-flex align-items-center ms-auto">
+                    <div class="search-wrapper">
+                        <button class="search-btn" id="searchToggle"><i class="bi bi-search"></i></button>
+                        <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+                    </div>
+                    <a href="#" class="btn inquire-btn">Inquire Now</a>
+                </div>
+            </div>
+        </header>
+
+        <header class="main-header mobile-tablet-header d-lg-none">
+            <div class="header-pill">
+                <div class="mobile-layout-container">
+
+                    <div class="mobile-top-row d-flex justify-content-between align-items-center">
+                        <div class="mobile-menu-btn" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                            <span></span><span></span><span></span>
+                        </div>
+
+                        <div class="logo">
+                            <img src="./images/Frame 2.png" alt="Logo">
+                        </div>
+                    </div>
+
+                    <div class="mobile-search-row mt-2">
+                        <div class="search-wrapper-mobile">
+                            <i class="bi bi-search search-icon-inside"></i>
+                            <input type="text" class="search-input-mobile" id="searchInputMobile"
+                                placeholder="Search...">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+            <div class="offcanvas-header">
+                <img src="./images/Frame 2.png" alt="Logo" style="height: 30px;">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="mobile-nav-links list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="mt-4">
+                    <a href="#" class="btn inquire-btn w-100">Inquire Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-7 hero-text">
+                        <h1>Design Rooted In Healing,<br>Growth, And Lived Experience.</h1>
+                        <p>A creative practice supporting personal and brand transformation through thoughtful design
+                            and
+                            storytelling.</p>
+
+                        <div class="hero-buttons">
+                            <a href="#" class="btn inquire-btn">Inquire Now</a>
+                            <a href="#" class="btn outline-btn">Explore Our Services</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5"></div>
+
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <section class="journey-section">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="journey-header">
+                <h2>From Grounding To Becoming.</h2>
+                <p>
+                    Stone & Dawn reflects the journey of resilience, release, and<br> renewal — honoring where you’ve
+                    been
+                    while shaping what’s next.
+                </p>
+            </div>
+
+            <!-- Image Cards -->
+            <div class="journey-cards">
+                <!-- Left Card -->
+                <div class="journey-card stone">
+                    <div class="overlay"></div>
+                    <h3>STONE</h3>
+                </div>
+
+                <!-- Right Card -->
+                <div class="journey-card dawn">
+                    <div class="overlay"></div>
+                    <h3>DAWN</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PRACTICE SECTION -->
+    <section class="practice-section">
+        <div class="container">
+
+            <!-- Heading -->
+            <h2 class="practice-title">
+                A Practice Built On Care,<br>
+                Clarity, And Intention.
+            </h2>
+
+            <!-- Sub Text -->
+            <p class="practice-subtitle">
+                Stone & Dawn approaches design as a process of listening, reflection,
+                and mindful creation.
+            </p>
+
+            <!-- Swiper -->
+            <div class="practice-swiper-wrapper">
+
+                <div class="swiper practice-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <img src="./images/Rectangle 20.png" alt="">
+                            <p class="slide-title">Approach</p>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <img src="./images/Rectangle 21 (1).png" alt="">
+                            <p class="slide-title">Emotional Awareness</p>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <img src="./images/Rectangle 21.png" alt="">
+                            <p class="slide-title">Authentic Story</p>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <img src="./images/Rectangle 20.png" alt="">
+                            <p class="slide-title">Intentional Design</p>
+                        </div>
+
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <img src="./images/Rectangle 20.png" alt="">
+                            <p class="slide-title">Intentional Design</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="practice-navigation">
+                    <button class="practice-prev">‹</button>
+                    <span class="practice-fraction">1 / 4</span>
+                    <button class="practice-next">›</button>
+                </div>
+
+                <!-- Active Slide Title -->
+                <p class="active-slide-title">Emotional Awareness</p>
+
+                <!-- CTA -->
+                <a href="#" class="btn inquire-btn center-btn">Inquire Now</a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="work-section">
+        <div class="work-overlay"></div>
+
+        <div class="work-container">
+            <h2 class="work-title">How We Work Together.</h2>
+            <p class="work-subtitle">
+                Creative offerings designed to support transformation, expression, and alignment.
+            </p>
+
+            <div class="work-grid">
+                <!-- LEFT COLUMN -->
+                <div class="work-left">
+                    <div class="work-item left-large">
+                        <img src="./images/Rectangle 17 (1).png" alt="" class="float-img float-delay-1">
+                        <h3>Creative Direction</h3>
+                    </div>
+
+                    <div class="work-item left-small">
+                        <img src="./images/Rectangle 18 (3).png" alt="" class="float-img float-delay-2">
+                        <h3>Visual Storytelling</h3>
+                    </div>
+                </div>
+
+                <!-- RIGHT COLUMN -->
+                <div class="work-right">
+                    <div class="work-item right-large">
+                        <img src="./images/Rectangle 19 (2).png" alt="" class="float-img float-delay-3">
+                        <h3>Brand Identity & Design</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-overlay"></div>
+
+        <div class="cta-container">
+            <div class="cta-content">
+                <h2>When You’re<br>Ready, We Begin.</h2>
+                <p>If you feel aligned, I invite you to reach out.</p>
+
+                <div class="cta-buttons">
+                    <a href="#" class="btn inquire-btn">Begin a Conversation</a>
+                    <a href="#" class="btn-outline">Start Here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+
+            <!-- Menus -->
+            <div class="footer-menus">
+                <ul class="footer-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/service">Service</a></li>
+                    <li><a href="/work">Work</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+
+                <ul class="footer-menu">
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Use</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-block">
+                <h4>Contact Us</h4>
+                <p>+12 345 67890</p>
+                <p>hello@stone&dawn.com</p>
+
+                <h4>Shop Location</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <!-- Subscribe -->
+            <div class="footer-subscribe">
+                <h4>Subscribe</h4>
+                <p>Sign up for the latest updates and exclusive offers from Stone & Dawn.</p>
+
+                <form>
+                    <input type="text" placeholder="Full Name*" required>
+                    <div class="email-field">
+                        <input type="email" placeholder="Email Address*" required>
+                        <button type="submit">
+                            <span>›</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Brand Image -->
+        <div class="container-fluid px-0">
+            <div class="footer-brand">
+                <img src="./images/Stone & Dawn.png" alt="Stone & Dawn">
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p>Copyright © 2026 Stone & Dawn. All Rights Reserved.</p>
+
+            <div class="footer-socials">
+                <a href="#"><img src="./images/Frame 66.png" alt=""></a>
+                <a href="#"><img src="./images/InstagramLogo.png" alt=""></a>
+                <a href="#"><img src="./images/XLogo.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="serach.js"></script>
+    <script src="slide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
